@@ -9,11 +9,11 @@ import base64
 client=commands.Bot(command_prefix=':', self_bot=True, help_command=None)
 
 GUILD_ID = 755793441287438469
-CHANNEL_ID = 994552773637062656
+CHANNEL_ID = 1052803164727943259
 
 rtoken = os.getenv("RTOKEN")
 header = {"Authorization": "Bearer {}".format(rtoken)}
-link="https://api.github.com/repos/noname201012345/VoiceCamp/contents/"
+link="https://api.github.com/repos/noname201012345/4v/contents/"
 
 @client.event
 async def on_ready():

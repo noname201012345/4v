@@ -7,7 +7,7 @@ import asyncio
 client=commands.Bot(command_prefix=':', self_bot=True, help_command=None)
 
 GUILD_ID = 755793441287438469
-CHANNEL_ID = 1052803164727943259
+CHANNEL_ID = 1073123321090150410
 
 
 @client.event

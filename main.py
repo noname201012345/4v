@@ -3,7 +3,7 @@ import os
 from discord.ext import commands
 import requests
 import asyncio
-from dotenv import load_dotenv()
+from dotenv import load_dotenv
 
 load_dotenv()
 
